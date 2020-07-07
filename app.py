@@ -12,7 +12,7 @@ app.secret_key = os.urandom(24)
 
 app = Flask(__name__)
 
-db = pymysql.connect("localhost","testuser","test123","TESTDB" )
+db = pymysql.connect("127.0.0.1","testuser","test123","TESTDB" )
 
 cursor = db.cursor()
 
