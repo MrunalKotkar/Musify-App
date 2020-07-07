@@ -1,1 +1,1 @@
-web: gunicorn Musify-App.wsgi
+web: gunicorn app:app

@@ -10,6 +10,7 @@ spotify = SpotifyAPI(client_id, client_secret)
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
+app = Flask(__name__)
 
 db = pymysql.connect("localhost","testuser","test123","TESTDB" )
 
